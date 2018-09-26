@@ -1,23 +1,32 @@
-@media only screen and (max-width: 740px){
-#wrapper{ 
-background-color: red;
-}
-}
-
-@media only screen and (max-width: 740px){
-#wrapper{ 
-background-color: green;
-}
+@media only screen and (max-width: 720px) {
+#wrapper {
+    background: blue;
+  }
 }
 
-@media only screen and (max-width: 570px){
-#wrapper{ 
-background-color: #7f7;
-}
+@media only screen and (max-width: 570px) {
+  #wrapper {
+    background: #7f7;
+  }
 }
 
-@media only screen and (max-width: 480px){
-#wrapper{ 
-background-color: #77f;
-}
+@media only screen and (max-width: 480px) {
+   #wrapper {
+     display: initial;
+  /*  float: none;
+    width: 100%;
+    columns: 1;*/
+  }
+  #profile {
+
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/
+  }
+
+  h1{
+  text-align: center;
+  }
 }
