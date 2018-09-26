@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["mY+nZ"]); }
+
+__d("SchedulerFb",["TimeSlice","requestAnimationFramePolyfill","Scheduler-dev","Scheduler-prod"],(function(a,b,c,d,e,f){"use strict";__p&&__p();a.requestAnimationFrame===undefined&&(a.requestAnimationFrame=b("requestAnimationFramePolyfill"));c=b("Scheduler-prod");d=c;f=d.unstable_now;var g=d.unstable_scheduleWork;a=d.unstable_cancelScheduledWork;c=function(a,c){function d(b){a(b)}b("TimeSlice").copyGuardForWrapper(a,d);d.__originalCallback=a;return g(d,c)};e.exports={unstable_now:f,unstable_scheduleWork:c,unstable_cancelScheduledWork:a}}),null);

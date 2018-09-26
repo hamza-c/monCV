@@ -1,34 +1,152 @@
 <!DOCTYPE html>
 <html lang="fr">
-       <head>
-              <meta charset= "utf-8">
-              <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-              <title>Mon CV</title>
-			  <meta name="description" content=" A propos de moi">
-              <meta name="keywords" content=" web.developer.resume"/>
-			  <meta name="author" content=" Mon nom">
-			  <meta name="viewport" content=" width=device-width,initial-scale=1">
-              <!--[if lt IE 9]>
-			             <script src"http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		</head>
-		<body>
-		      <div id="wrapper"></div>
-			  <h1>Mohamed Chamakh</h1>
-			  <h2>MMA</h2>
-              <img src="mon_image.png" alt="texte si l'image n'est pas affichée">
-			  <h4>Hamza chamakh,23ans,hamza.chamakh95@gmail.com</h4>
-			  <article>je suis une personne sérieuse ponctuelle et bien ordonnée </article>
-			  <dt>compétences</dt>
-			  <dd>css</dd>
-			  <dd>html5</dd>
-			  
-			  <dt>Langues</dt>
-			  <dd>francais : Courant</dd>
-			  <dd>anglais : Bon niveau </dd>
-			  
-			  
-			  
-		</body>
-		<a href="www.facebook.com">Facebook</a>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title> Mon CV</title>
+	<meta name="author" content="Hamza">
+	<meta name="description" content="A propos de moi">
+	<meta name="keywords" content="big data,Business Intelligence,design">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="resume.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="responsive.css"/>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+
+
+<div id="wrapper">
+	<header itemscope itemtype="http://schema.org/Person">
+		<h1 itemprop="name"> CHAMAKH Mohamed Hamza</h1> 
+		<h2 itemprop="activity">Développeur Big Data et Data Scientist</h2>
+		<img src="hamza.jpg" width="200" height="200"/> <br>
+		<span itemprop="age">23 ans </span><br>
+		<span itemprop="nationality">Marocaine</span><br>
+		<span>célibataire</span><br>
+		<span itemprop="email">hamza.chamakh95@gmail.com </span> <br>
+		<span> Résidence de KERGOAT 2 Rue des archives </span> <br>
+		<span> Logement A401 BREST 29200</span>
 		
+			<article >
+			<p id="para"> " Un jeune homme rigoureux, bien organisé, trés à l'aise à l'oral,<br> 
+			j'aime travailler en équipe tant au niveau opérationnel et stratégique "
+			</p> <br>
+			</article>
+		
+	</header>
+	
+	<section>
+		<article id="for">
+
+			<h2> Formations et Diplômes:</h2>  
+			
+			
+			<p itemprop="formation"><span id="date">2018-2019: </span> Université de Bretagne Occidentale – UFR des sciences – Master 2 <br>
+							<span class="space"></span>« Développement à IOgiciel des Systèmes d’informations » <br>
+							<span class="space"></span>Brest, France<br> 
+			
+			
+			<p itemprop="formation"> <span id="date">2017-2018: </span> Université Hassan 2 – ENSAM – Master 1 <br>
+								<span class="space"></span>« Big Data et Internet des Objets» <br>
+							<span class="space"></span>Casablanca, Maroc
+			  
+			</p>
+                       
+                        <p itemprop="formation"> <span id="date">2016-2017: </span> Université Hassan 2 – Faculté des Sciences Ain Chock – Licence <br>
+								<span class="space"></span>« Sciences Mathématiques et Informatique» <br>
+							<span class="space"></span>Casablanca, Maroc
+			  
+			</p>
+
+
+			<p itemprop="formation"> <span id="date">2013-2016: </span>Classes préparatoires - Lycée la résidence <br>
+							<span class="space"></span>MPSI/MP<br>
+							<span class="space"></span>Casablanca, Maroc
+			</p>
+
+		
+			<p itemprop="formation"> <span id="date">2012-2013: </span>ENSA El Jadida <br>
+							<span class="space"></span>1re année Prépa STPI <br>
+							<span class="space"></span>ElJadida, Maroc
+			</p>
+			
+			
+			<p itemprop="formation"> <span id="date">2011-2012: </span>Lycée Groupe Scolaire Berrada – Baccalauréat <br>
+							<span class="space"></span>	« Sciences Mathématiques A» <br>
+							<span class="space"></span>	Casablanca, Maroc
+			</p>
+			
+	
+		</article>
+		
+		<article id="ex">
+			<h2> Expériences professionnelles:</h2> 
+			<h3>Aout 2017 </h3>
+			<p> Stagiaire au sein de la société SOFAC Crédit à Casablanca.<br>
+			   L'entretien de réseaux informatiques et des serveurs informatiques.
+			</p>
+		</article>
+		
+		<article id="comp">
+			<h2> Compétences:</h2> 
+			<dl>
+				<dt>Big Data:</dt>
+					<dd>Hadoop, Yarn, Spark ...</dd>
+				
+				<dt>Business Intelligence:</dt>
+					<dd>Talend, OWB, ODI, AWM</dd>
+				<dt>Analyse et conception</dt>
+					<dd>Merise, UML</dd>
+					
+				<dt>Langages de programmation et technologies:</dt>
+					<dd>C/C++ , PHP, C#, JAVA SE, J2EE, JSF, R, HTML, CSS, JS , Bootstrap,Materialize, JQuery, Ajax, JSON</dd>
+				<dt>SGBDR:</dt>
+					<dd>SQL, PL/SQL, MySQL, Access, Oracle 11g</dd>
+				
+				<dt>Bureautique:</dt>
+					<dd>Microsoft Word, Excel, Internet, PowerPoint, Front page, Publisher, Photoshop , Design des Templates web</dd>
+				<dt>Environnement:</dt>
+					<dd>Unix, Windows</dd>
+				
+					
+			
+			</dl>
+		
+		</article>
+		
+		<article id="lg">
+			<h2> Langues:</h2>
+				<dl>
+				<dt>Français:</dt>
+					<dd>Niveau avancé - C1 TCF</dd>
+				<dt>Anglais:</dt>
+					<dd>Niveau avancé - B2 TOEFL</dd>
+				<dt>Arabe:</dt>
+					<dd>Langue maternelle </dd>
+					
+				</dl>
+			</p>
+		</article>
+		
+	</section>
+	
+	<footer>
+		<ul>
+			<li><i class="fab fa-facebook"></i>  <a href="https://www.facebook.com/fz.ke.3" > https://www.facebook.com/fz.ke.3 </a> </li>
+			<li><i class="fab fa-instagram"></i>  <a href="https://www.instagram.com/" >  https://www.instagram.com/fatimazahrakb</a> </li>
+			<li><i class="fab fa-twitter"></i>  <a href="http//twitter.com" > https://www.twitter.com/ </a> </li>
+		</ul>
+	</footer>
+	
+</div>
+</body>
 </html>
